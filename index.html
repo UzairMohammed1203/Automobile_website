@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Automobile E-Commerce</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AutoMart</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Automobiles</a></li>
+                    <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to AutoMart</h2>
+            <p>Your one-stop shop for the best automobiles.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products container">
+        <h2>Available Automobiles</h2>
+        <div id="product-list" class="product-list">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section id="cart" class="cart container">
+        <h2>Your Shopping Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <div id="cart-total" class="cart-total"></div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AutoMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
